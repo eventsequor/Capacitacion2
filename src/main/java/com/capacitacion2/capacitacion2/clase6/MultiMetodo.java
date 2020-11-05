@@ -26,4 +26,12 @@ public class MultiMetodo {
 	public int dividir(int a,int b) {
 		return a/b;
 	}
+	
+	public void timeOut() {
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
 }
