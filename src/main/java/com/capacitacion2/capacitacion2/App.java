@@ -21,8 +21,6 @@ public class App {
 		
 		Motocicleta.metodoImpresion();
 		
-		
-		
 
 //		Clase objClase = new Clase();
 //		objClase.metodo();
