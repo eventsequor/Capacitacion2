@@ -6,9 +6,9 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(tags = "@Clase10", monochrome = true,
+@CucumberOptions(tags = "@BusquedaEmpleos", monochrome = true,
 plugin = "pretty", features = "src/test/resources/Features",
 glue = "com.capacitacion2.capacitacion2.clase8.stepdefinitios")
-public class Runner {
+public class RunnerElEmpleo {
 
 }
